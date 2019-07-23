@@ -68,5 +68,14 @@ Disadvantage
 - [ ] Read the JSON file byte by byte to parse it in chunks without the libraries mentioned
 - [ ] Implement multithreading and techniques to improve performances (task 2)
 
+# Task 2
+### <COMING SOON>
+
+# Task 3
+### Configuration:
+- Number of cores : 4 cores (Intel core i5-6500 3.20GHzx4)
+- Size of physical memory : 16 GB (2x8GB DDR4 LPX 2400MHz)
+- Type of Disk : 256GB SSD, 1TB HDD
+- Operating system and version - Ubuntu 19.04
 
 
