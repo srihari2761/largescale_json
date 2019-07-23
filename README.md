@@ -1,2 +1,72 @@
 # largescale_json
 Assignment: Large-scale Processing of JSON Objects
+
+## Task 1.
+### 1) small_test2.cpp
+
+This program uses nlohmann's JSON library for modern c++
+
+Ubuntu Installation:
+```
+sudo apt install Dnlohmann-json-dev
+```
+OS X and Homebrew installation:
+
+> If you are using OS X and Homebrew, just type brew tap nlohmann/json and brew install nlohmann-json and you're set. If you want the bleeding edge rather than the latest release, use brew install nlohmann-json --HEAD.
+
+Compiling:
+```
+g++ small_test2.cpp
+./a.out <INSERT_FILENAME>
+```
+
+### 1) small_test3.cpp
+
+This program uses Tencent's rapidJSON library 
+
+Ubuntu Installation:
+```
+sudo apt-get install rapidjson-dev
+```
+ther operating systems:
+
+> RapidJSON is a header-only C++ library. Just copy the include/rapidjson folder to system or project's include path.
+
+
+
+Compiling:
+```
+g++ small_test3.cpp
+./a.out <INSERT_FILENAME>
+```
+
+### Execution Time
+
+| Filename | nlohmann's library | rapidJSON library | 
+| -------- | ------------------ | ----------------- |
+| small.json | 54.6274 ms | 30.1546 ms |
+| medium.json | 4700.8 ms | 3043.91 ms |
+| large.json | 46116.1 ms | 28324.4 ms |
+
+## Advantage/disadvantages of using nlohmann's library
+Advantage
+- JSON objects can be parsed as STL objects, making it easily interpretable
+
+Disadvantage
+- No memory managment, does not work on large files
+- Parsing speed is slow compared to other libraries
+
+## Advantage/disadvantages of using rapidJSON's library
+- File is loaded as chunks using FileStreamReader, thus can handle large files
+- Fastest parsing time compared to other libraries
+- Only disadvantage - no inbuilt multithreading option
+
+# TO-DO
+- [x] Test all use cases
+- [ ] Document the functions used
+- [ ] Implement profiling applications and log bottlenecks (task 3)
+- [ ] Read the JSON file byte by byte to parse it in chunks without the libraries mentioned
+- [ ] Implement multithreading and techniques to improve performances (task 2)
+
+
+
