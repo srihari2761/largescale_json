@@ -1,5 +1,4 @@
-# largescale_json
-Assignment: Large-scale Processing of JSON Objects
+# Assignment: Large-scale Processing of JSON Objects
 
 ## Task 1.
 ### 1) small_test2.cpp
@@ -66,7 +65,7 @@ Disadvantage
 - [ ] Document the functions used
 - [ ] Implement profiling applications and log bottlenecks (task 3)
 - [ ] Read the JSON file byte by byte to parse it in chunks without the libraries mentioned
-- [ ] Implement multithreading and techniques to improve performances (task 2)
+- [ ] Implement multithreading and techniques to improve performance (task 2)
 
 # Task 2
 ### COMING SOON
