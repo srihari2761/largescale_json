@@ -20,7 +20,7 @@ g++ small_test2.cpp
 ./a.out <INSERT_FILENAME>
 ```
 
-### 1) small_test3.cpp
+### 2) small_test3.cpp
 
 This program uses Tencent's rapidJSON library 
 
@@ -69,7 +69,7 @@ Disadvantage
 - [ ] Implement multithreading and techniques to improve performances (task 2)
 
 # Task 2
-### <COMING SOON>
+### COMING SOON
 
 # Task 3
 ### Configuration:
