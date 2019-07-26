@@ -31,6 +31,17 @@ Other operating systems:
 
 > RapidJSON is a header-only C++ library. Just copy the include/rapidjson folder to system or project's include path.
 
+### 2) small_test4.cpp
+
+This program uses Tencent's rapidJSON library 
+
+Ubuntu Installation:
+```
+sudo apt-get install rapidjson-dev
+```
+Other operating systems:
+
+> RapidJSON is a header-only C++ library. Just copy the include/rapidjson folder to system or project's include path.
 
 
 Compiling:
@@ -38,6 +49,7 @@ Compiling:
 g++ small_test3.cpp
 ./a.out <INSERT_FILENAME>
 ```
+> Added code to perform operations on a hash table, to reduce search complexity to O(1) and O(n) (for cost components). More experiments to be performed and logged.
 
 ### Execution Time
 
@@ -66,6 +78,8 @@ Disadvantage
 - [ ] Implement profiling applications and log bottlenecks (task 3)
 - [ ] Read the JSON file byte by byte to parse it in chunks without the libraries mentioned
 - [ ] Implement multithreading and techniques to improve performance (task 2)
+- [ ] Experiment hash maps without chunk based reading and with proper memory managment
+
 
 # Task 2
 ### COMING SOON
