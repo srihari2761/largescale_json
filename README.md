@@ -27,7 +27,7 @@ Ubuntu Installation:
 ```
 sudo apt-get install rapidjson-dev
 ```
-ther operating systems:
+Other operating systems:
 
 > RapidJSON is a header-only C++ library. Just copy the include/rapidjson folder to system or project's include path.
 
